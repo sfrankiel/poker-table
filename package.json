@@ -1,0 +1,26 @@
+{
+  "name": "10-seat-poker-table",
+  "version": "1.0.0",
+  "description": "A self-contained React component for rendering a 10-seat poker table with dealer position",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "poker",
+    "poker-table",
+    "react",
+    "typescript",
+    "gaming",
+    "card-game"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
