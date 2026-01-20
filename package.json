@@ -5,7 +5,10 @@
   "main": "index.ts",
   "types": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cd demo && npm run dev",
+    "demo": "cd demo && npm run dev",
+    "build:demo": "cd demo && npm run build",
+    "preview:demo": "cd demo && npm run preview"
   },
   "keywords": [
     "poker",

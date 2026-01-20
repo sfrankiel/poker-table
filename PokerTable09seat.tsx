@@ -90,7 +90,6 @@ export const PokerTable9Player: React.FC<PokerTable9PlayerProps> = ({
             x={positions[seat.index].x}
             y={positions[seat.index].y}
             onSit={handleSit}
-            isDealerSeat={false} // In 9-player mode, no seat is a dealer seat
           />
         ))}
 
